@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#bgimg{
+    background-image: url('../images/bg.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#knight {
+    width: 100px;
+    height: 125px;
+    margin-left: 35%;
+    background: url(https://i.imgsafe.org/f3/f333eb57eb.png) repeat-x;
+    position: absolute;
+    bottom: 10%;
+    animation: walk 1.5s steps(10) infinite;
+}
+
+@keyframes walk {
+    0% { background-position:0 }
+    100% { background-position:-1120px }
+}
+nav span{
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: #9d0101;
+}
+.side-menu {
+    position: fixed;
+    width:14em;
+    height: auto;
+    margin:4em auto 0;
+    font-size: 1em;
+    line-height: 2em;
+    color: #fff;
+    font-weight:700;
+    text-transform:uppercase;
+    bottom:50px;
+    left: -10em;
+}
+.side-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.side-menu ul li {
+    display:block;
+    background-color: #333;
+    padding: 1em 1em;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.5s,     background-color .5s, color .5s;
+    transition: transform .5s, background-color .5s, color .5s;
+}
+.side-menu ul li:nth-child(1) {
+    background-color: #9d0101;
+}
+.side-menu ul li:nth-child(2) {
+    background-color: #7b7f81;
+}
+.side-menu ul li:nth-child(3) {
+    background-color: #9d0101;
+}
+.side-menu ul li:nth-child(4) {
+    background-color: #7b7f81;
+}
+.side-menu ul li:hover {
+    background-color: #000000;
+    -webkit-transform: translateX(10em);
+    transform: translateX(10em);
+}
+.side-menu ul li a {
+    display:block;
+    color: #FFF;
+    text-decoration: none;
+}
+.side-menu ul li span {
+    display:block;
+    position: absolute;
+    font-size:1em;
+    line-height: 2em;
+    height:2em;
+    top:0;
+    bottom:0;
+    margin:0 auto;
+    padding:1em 1.5em;
+    right: 0.16666666666667em;
+    color: #F8F6FF;
+}
+#actu{
+    color:#9d0101;
+    margin-top: 40px;
+  }
+.col li{
+    list-style-type: none;
+    color: #9d0101;
+}
+.col ul{
+    margin-top: 10px;
+}
+
+#bgimg {
+    height: 100vh;
+}
+
+
+#fullpage #two {
+    background-color: white;
+    height: 60vh;
+}
+
+#fullpage #two h2{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#fullpage #three{
+    height: 60vh;
+    background-color: rgba(123, 127, 129, 0.09);
+}
+
+#fullpage #three h2{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#fullpage section:nth-child(3) {
+    background-color: white;
+    height: 100vh;
+}
+
+#fullpage section:nth-child(4) {
+    background-color: white;
+    height: 100vh;
+}
+
+#fullpage section:nth-child(5) {
+    background-color: rgba(157, 1, 1, 0.12);
+    height: 100vh;
+}
+
+#fullpage section:nth-child(6) {
+    background-color: white;
+    height: 60vh;
+}
+#formdiv{
+    padding-top: 50px;
+    width: 70%;
+    margin: auto;
+    color:#9d0101;
+}
+h6 a{
+    color:#9d0101;
+}
+footer{
+    color: white;
+}
+#divbtnf button{
+    background-color: #9d0101;
+}
+#formdiv legend{
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+#divbtnf{
+    text-align: center;
+}
+#divbtnf button{
+    width: 150px;
+}
+.lettre{
+    width: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+    display: none;
+}
+.joueurlettrec{
+    width: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+}
+.joueurdisplay{
+    display: block;
+}
+#pendu{
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 800px;
+    position: relative;
+}
+#penduvide{
+     position: absolute;
+ }
+#tete{
+    position: absolute;
+    top: 60px;
+    left: 214px;
+}
+#corps{
+    position: absolute;
+    top: 134px;
+    left: 181px;
+}
+#jambe{
+    position: absolute;
+    top: 248px;
+    left: 206px;
+}
+#pied{
+    position: absolute;
+    top: 300px;
+    left: 214px;
+}
+
